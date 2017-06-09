@@ -17,11 +17,16 @@ h1 {
   width: 100%;
   margin-bottom: 0
 }
-
 h2 {
   font-weight: 300;
   width: 100%;
 }
+@media screen and (max-width:530px) {
+  header {
+    font-size: 90%;
+  }
+}
+
 
 hr {
   color: #7d97ad;
@@ -32,6 +37,11 @@ hr {
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 100%
+}
+.safari_flex{
+  width:100%;
+  display:flex;
 }
 
 .image_large {
@@ -44,10 +54,14 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
+.marginless {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 @font-face {
     font-family: Anurati-Regular;
-    src: url("/Users/joshua/udacity/portfolio_project_2/ANURATIFreeFont/Anurati-Regular.otf") format("opentype");
+    src: url("ANURATIFreeFont/Anurati-Regular.otf") format("opentype");
 }
 
 p {
