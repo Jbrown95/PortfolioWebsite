@@ -17,16 +17,17 @@ h1 {
   width: 100%;
   margin-bottom: 0
 }
+
 h2 {
   font-weight: 300;
   width: 100%;
 }
-@media screen and (max-width:530px) {
+
+@media screen and (max-width: 530px) {
   header {
     font-size: 90%;
   }
 }
-
 
 hr {
   color: #7d97ad;
@@ -39,8 +40,9 @@ hr {
   flex-wrap: wrap;
   width: 100%
 }
+
 .safari_flex{
-  width:100%;
+  width: 100%;
   display:flex;
 }
 
@@ -53,10 +55,12 @@ hr {
   max-width: 33%;
   margin-left: auto;
   margin-right: auto;
+
 }
 .marginless {
   margin-left: 0;
   margin-right: 0;
+
 }
 
 @font-face {
@@ -70,13 +74,13 @@ p {
 }
 
 .logo {
-  font-family:Anurati-Regular;
-  font-size:300%;
+  font-family: Anurati-Regular;
+  font-size: 300%;
   width: 50%
 }
 
 .col_half {
-  width:50%
+  width: 50%
 }
 
 .text_right {
@@ -85,11 +89,15 @@ p {
 
 a {
   font-size: 200%;
-  text-decoration:none;
-  color:black;
-  margin-right:20px;
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
 }
 
-a:last-of-type {
+a: last-of-type {
   margin-right: 0
+}
+
+.full_width {
+  max-width: 100%;
 }
