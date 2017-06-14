@@ -3,11 +3,19 @@
 [class*="zocial-"]:before {
 font-family: 'zocial', sans-serif;
 }
+
 body {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   background-color: #afa5a5;
+}
+
+@media (max-width:1010px) {
+  body {
+    margin-left: 10px;
+    margin-right:10px;
+  }
 }
 
 header {
